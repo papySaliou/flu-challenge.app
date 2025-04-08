@@ -16,9 +16,9 @@ class _CarouselsState extends State<Carousels> {
   bool isFavorite = false;
 
   final Map<String, String> colorToImage = {
-    'Bleu': 'assets/images/image1.png',
+    'Bleu': 'assets/images/image3.png',
     'Vert': 'assets/images/image2.png',
-    'Rose': 'assets/images/image3.png',
+    'Rose': 'assets/images/image1.png',
   };
 
   late String selectedColor;
@@ -215,10 +215,7 @@ class _CarouselsState extends State<Carousels> {
           ),
           SizedBox(height: 10),
           
-          // Padding(
-          //   padding: EdgeInsets.symmetric(horizontal: 20),
-          //   child: Row(
-          //     children: [
+          
                 Padding(
             padding: EdgeInsets.symmetric(horizontal: 20),
             child: Row(
@@ -266,9 +263,5 @@ class _CarouselsState extends State<Carousels> {
             );
 
 
-    //     ],
-    //   ),
-      
-    // );
   }
 }
