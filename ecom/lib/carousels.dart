@@ -199,7 +199,7 @@ class _CarouselsState extends State<Carousels> {
 
           Padding(
             padding: EdgeInsets.symmetric(horizontal: 20),
-            child: Container(
+            child: SizedBox(
               width: double.infinity,
               child: Text(
                 'Les AirPods Max réinventent le casque circum-\nauriculaire avec un transducteur conçu par Apple \npour un son haute fidélité.',
